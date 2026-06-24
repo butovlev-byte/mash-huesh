@@ -34,3 +34,9 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+git add -A
+git commit -m "Android integration: contacts, notifications, Bluetooth, background service"
+git push origin main
+
+# Собери APK
+buildozer android debug deploy run
