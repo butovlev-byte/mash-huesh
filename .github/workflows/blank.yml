@@ -36,4 +36,3 @@ jobs:
           echo test, and deploy your project.
 
 # Собери APK
-buildozer android debug deploy run
